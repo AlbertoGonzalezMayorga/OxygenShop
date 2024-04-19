@@ -1,0 +1,25 @@
+$fontF_sans: "Open Sans", sans-serif;
+$fontF_raleway: "Raleway", sans-serif;
+$fontC_highlighted: #08a6e4;
+
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.font {
+    &__primary {
+        font-family: $fontF_sans;
+    }
+
+    &__secondary {
+        font-family: $fontF_raleway;
+    }
+
+    &__highlighted {
+        color: $fontC_highlighted;
+    }
+}
+
+@import "./header.scss";
