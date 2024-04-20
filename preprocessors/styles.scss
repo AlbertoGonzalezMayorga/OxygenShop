@@ -17,11 +17,13 @@ $fontC_highlighted: #08a6e4;
         font-family: $fontF_raleway;
     }
 
-    &__highlighted {
-        color: $fontC_highlighted;
+    &--highlighted{
+         color: $fontC_highlighted;
     }
 }
 
 @import "./header.scss";
 @import "./open_shop.scss";
+@import "./core-image.scss";
+@import "./icons-container.scss"
 

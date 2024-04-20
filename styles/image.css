@@ -1,0 +1,10 @@
+.main__image-container {
+  min-height: 16.7em;
+  max-height: 37.1em;
+  margin-top: 3em;
+  background-image: url("../images/Background 2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-clip: content-box;
+  background-position: center;
+}

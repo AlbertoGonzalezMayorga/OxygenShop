@@ -10,7 +10,7 @@
 .font__secondary {
   font-family: "Raleway", sans-serif;
 }
-.font__highlighted {
+.font--highlighted {
   color: #08a6e4;
 }
 
@@ -65,4 +65,57 @@
   font-weight: 700;
   vertical-align: middle;
   line-height: 0rem;
+}
+
+.main__image-container {
+  min-height: 16.7em;
+  max-height: 37.1em;
+  margin-top: 3em;
+  background-image: url("../images/Background 2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-clip: content-box;
+  background-position: center;
+}
+
+.main__icons-container {
+  text-align: center;
+}
+.main__icons-container__title {
+  text-align: center;
+  margin: auto;
+  padding: 0% 10% 10% 10%;
+}
+.main__icons-container__title__text {
+  font-weight: 300;
+  font-size: 2rem;
+}
+.main__icons-container__image-box {
+  margin: auto;
+  width: -moz-min-content;
+  width: min-content;
+  padding: 1em;
+}
+.main__icons-container__image-box__image {
+  padding: 0;
+}
+.main__icons-container__image-box__image--first {
+  display: inline;
+  transform: translate(1.9em);
+}
+.main__icons-container__image-box__image--second {
+  display: inline;
+  transform: translate(-0.6em, -0.8em);
+}
+.main__icons-container__image-box__title {
+  padding: 1em;
+  letter-spacing: 5.96px;
+  font-weight: 800;
+  font-size: 1.25rem;
+  width: 80%;
+}
+.main__icons-container__image-box__text {
+  font-weight: 400;
+  font-size: 1rem;
+  color: #A5A5A5;
 }

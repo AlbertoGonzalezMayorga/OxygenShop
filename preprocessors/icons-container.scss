@@ -1,0 +1,45 @@
+.main {
+    &__icons-container {
+        text-align: center;
+        &__title {
+            text-align: center;
+            margin: auto;
+            padding: 0% 10% 10% 10%;
+
+            &__text {
+                font-weight: 300;
+                font-size: 2rem;
+            }
+        }
+
+        &__image-box {
+            margin: auto;
+            width: min-content;
+            padding: 1em;
+            &__image{
+                padding:0;
+                &--first{
+                    display: inline;
+                    transform: translate(1.9em);
+                }
+                &--second{
+                    display: inline;
+                    transform: translate(-0.6em, -0.8em);
+                }
+            }
+            &__title{
+                padding: 1em;
+                letter-spacing: 5.96px;
+                font-weight: 800;
+                font-size: 1.25rem;
+                width: 80%;
+            }
+            &__text {
+                font-weight: 400;
+                font-size: 1rem;
+                color: #A5A5A5;
+            }
+            
+        }
+    }
+}

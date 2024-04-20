@@ -1,0 +1,42 @@
+.main__openShop-container {
+  margin: auto;
+  margin-top: 6em;
+  padding: 0em 2em 0em 2em;
+  text-align: center;
+  width: 100%;
+}
+.main__openShop-container__title {
+  font-weight: 400;
+  font-size: 2rem;
+}
+.main__openShop-container__text {
+  padding: 1em 1em 1.5em 1em;
+  font-size: 1rem;
+  font-weight: 400;
+}
+.main__openShop-container__button {
+  width: 100%;
+  padding: 2em;
+  max-height: 67px;
+  color: white;
+  background: none;
+  border: none;
+  background-color: #08a6e4;
+  box-shadow: 5px 10px 14px 0px rgba(7, 172, 230, 0.2901960784);
+  border-radius: 2.5em;
+  font-size: 1rem;
+  font-weight: 700;
+  vertical-align: middle;
+  line-height: 0rem;
+}
+
+.main__image-container {
+  min-height: 16.7em;
+  max-height: 37.1em;
+  margin-top: 3em;
+  background-image: url("../images/Background 2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-clip: content-box;
+  background-position: center;
+}
