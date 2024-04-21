@@ -20,11 +20,9 @@
   padding: 0;
 }
 .main__icons-container__image-box__image--first {
-  display: inline;
   transform: translate(1.9em);
 }
 .main__icons-container__image-box__image--second {
-  display: inline;
   transform: translate(-0.6em, -0.8em);
 }
 .main__icons-container__image-box__title {

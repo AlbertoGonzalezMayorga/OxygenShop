@@ -100,11 +100,9 @@
   padding: 0;
 }
 .main__icons-container__image-box__image--first {
-  display: inline;
   transform: translate(1.9em);
 }
 .main__icons-container__image-box__image--second {
-  display: inline;
   transform: translate(-0.6em, -0.8em);
 }
 .main__icons-container__image-box__title {
@@ -118,4 +116,80 @@
   font-weight: 400;
   font-size: 1rem;
   color: #A5A5A5;
+}
+
+.main__cards-container {
+  background-color: #F7F7F7;
+  padding: 10%;
+  text-align: center;
+}
+.main__cards-container__card {
+  margin: auto;
+  margin-bottom: 2em;
+  border-radius: 5px;
+  border: 1px solid #E8E9ED;
+  background-color: #FFFFFF;
+  padding: 1em;
+}
+.main__cards-container__card__title {
+  text-align: start;
+  padding: 1em 0em 1em 0em;
+  width: 85%;
+  font-weight: 400;
+  font-size: 1.875rem;
+}
+.main__cards-container__card__text {
+  text-align: start;
+  padding: 1em 0em 1em 0em;
+  font-weight: 400;
+  font-size: 0.875rem;
+}
+
+.main__pricing-container {
+  text-align: center;
+}
+.main__pricing-container__pricing-box {
+  width: 80%;
+  margin: auto;
+  margin-bottom: 4em;
+  border-radius: 1em;
+  border: 1px solid black;
+}
+.main__pricing-container__pricing-box__button {
+  color: white;
+  padding: 1em 2em 1em 2em;
+  position: relative;
+  bottom: -20px;
+}
+.main__pricing-container__pricing-box__button--red {
+  background-color: #eb476e;
+}
+.main__pricing-container__pricing-box__button--blue {
+  background-color: #07ace6;
+}
+.main__pricing-container__pricing-box__button--green {
+  background-color: #55DFB4;
+}
+
+#image__macbook {
+  position: relative;
+  padding-top: 1em;
+  z-index: 2;
+}
+#image__redPoligon {
+  position: absolute;
+  transform: translate(6em, -1em);
+  z-index: 1;
+}
+#image__iphone {
+  position: absolute;
+  transform: translate(-8em, 1em);
+}
+#image__greenRectangle {
+  max-width: -webkit-fill-available;
+  transform: scaleX(1.12);
+}
+#image__trumpet {
+  position: absolute;
+  transform: translate(-19em, 1em);
 }

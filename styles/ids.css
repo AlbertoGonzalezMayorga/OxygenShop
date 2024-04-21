@@ -1,0 +1,22 @@
+#image__macbook {
+  position: relative;
+  padding-top: 1em;
+  z-index: 2;
+}
+#image__redPoligon {
+  position: absolute;
+  transform: translate(6em, -1em);
+  z-index: 1;
+}
+#image__iphone {
+  position: absolute;
+  transform: translate(-8em, 1em);
+}
+#image__greenRectangle {
+  max-width: -webkit-fill-available;
+  transform: scaleX(1.12);
+}
+#image__trumpet {
+  position: absolute;
+  transform: translate(-19em, 1em);
+}

@@ -1,0 +1,25 @@
+.main__pricing-container {
+  text-align: center;
+}
+.main__pricing-container__pricing-box {
+  width: 80%;
+  margin: auto;
+  margin-bottom: 4em;
+  border-radius: 1em;
+  border: 1px solid black;
+}
+.main__pricing-container__pricing-box__button {
+  color: white;
+  padding: 1em 2em 1em 2em;
+  position: relative;
+  bottom: -20px;
+}
+.main__pricing-container__pricing-box__button--red {
+  background-color: #eb476e;
+}
+.main__pricing-container__pricing-box__button--blue {
+  background-color: #07ace6;
+}
+.main__pricing-container__pricing-box__button--green {
+  background-color: #55DFB4;
+}

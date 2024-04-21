@@ -1,0 +1,28 @@
+.main {
+    &__cards-container {
+        background-color: #F7F7F7;
+        padding: 10%;
+        text-align: center;
+        &__card {
+            margin: auto;
+            margin-bottom: 2em;
+            border-radius: 5px;
+            border: 1px solid #E8E9ED;
+            background-color: #FFFFFF;
+            padding: 1em;
+            &__title {
+                text-align: start;
+                padding: 1em 0em 1em 0em;
+                width: 85%;
+                font-weight: 400;
+                font-size: 1.875rem;
+            }
+            &__text {
+                text-align: start;
+                padding: 1em 0em 1em 0em;
+                font-weight: 400;
+                font-size: .875rem;
+            }
+        }
+    }
+}

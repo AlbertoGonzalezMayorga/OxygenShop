@@ -19,11 +19,9 @@
             &__image{
                 padding:0;
                 &--first{
-                    display: inline;
                     transform: translate(1.9em);
                 }
                 &--second{
-                    display: inline;
                     transform: translate(-0.6em, -0.8em);
                 }
             }
