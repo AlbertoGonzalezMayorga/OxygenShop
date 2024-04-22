@@ -1,5 +1,5 @@
 .main {
-    &__icons-container {
+    &__icons {
         text-align: center;
         &__title {
             text-align: center;
@@ -12,7 +12,7 @@
             }
         }
 
-        &__image-box {
+        &__card {
             margin: auto;
             width: min-content;
             padding: 1em;

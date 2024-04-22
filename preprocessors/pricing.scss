@@ -1,35 +1,112 @@
 .main {
-    &__pricing-container {
+    &__prices {
         text-align: center;
-        &__pricing-box {
+
+        &__title {
+            font-weight: 400;
+            font-size: 2.1rem;
+            margin-top: 2em;
+            margin-bottom: 0.7em;
+        }
+        &__card {
             width: 80%;
             margin: auto;
             margin-bottom: 4em;
             border-radius: 1em;
             border: 1px solid black;
+            transform: scale(1);
+            transition: transform .5s ease-in-out;
+            &:hover{
+                transition: transform .5s ease-in-out;
+                transform: scale(1.1);
+            }
             &__pricing {
+                display: inline-block;
+                position: relative;
+                top: -1.5em;
+                width: 40%;
                 &__title {
+                    font-weight: 700;
+                    font-size: 1.2rem;
                 }
                 &__price {
+                    font-weight: 300;
+                    font-size: 3rem;
                 }
                 &__sub-title {
+                    font-weight: 700;
+                    font-size: 0.8rem;
                 }
             }
             &__services {
+                display: inline-block;
+                width: 49%;
+                text-align: start;
+                text-wrap: nowrap;
+                div {
+                    padding: 0.5em;
+                }
+                &__img {
+                    display: inline;
+                }
+                &__text {
+                    display: inline;
+                    font-weight: 400;
+                    font-size: 0.9rem;
+                    margin-left: 0.5em;
+                }
             }
             &__button {
-                color:white;
-                padding: 1em 2em 1em 2em;
+                color: white;
+                padding: 1em 4em 1em 4em;
                 position: relative;
                 bottom: -20px;
-                &--red {
+                border: none;
+                border-radius: 1.5em;
+            }
+            &--red {
+                border-color: #eb476e;
+                .main__prices__card__pricing__price {
+                    color: #eb476e;
+                }
+                .main__prices__card__button {
                     background-color: #eb476e;
                 }
-                &--blue {
+                &:hover{
+                    box-shadow: 5px 10px 27px #eb476e4a;
+                    .main__prices__card__button{
+                        box-shadow: 5px 10px 27px #eb476e4a;
+                    }
+                }
+            }
+            &--blue {
+                border-color: #07ace6;
+                .main__prices__card__pricing__price {
+                    color: #07ace6;
+                }
+                .main__prices__card__button {
                     background-color: #07ace6;
                 }
-                &--green {
-                    background-color: #55DFB4;
+                &:hover{
+                    box-shadow: 5px 10px 27px #07ACE64A;
+                    .main__prices__card__button{
+                        box-shadow: 5px 10px 27px #07ACE64A;
+                    }
+                }
+            }
+            &--green {
+                border-color: #55dfb4;
+                .main__prices__card__pricing__price {
+                    color: #55dfb4;
+                }
+                .main__prices__card__button {
+                    background-color: #55dfb4;
+                }
+                &:hover{
+                    box-shadow: 5px 10px 27px #55dfb44a;
+                    .main__prices__card__button{
+                        box-shadow: 5px 10px 27px #55dfb44a;
+                    }
                 }
             }
         }
