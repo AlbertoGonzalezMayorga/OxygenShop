@@ -1,0 +1,38 @@
+.main__icons {
+  text-align: center;
+}
+.main__icons__title {
+  text-align: center;
+  margin: auto;
+  padding: 0% 10% 10% 10%;
+}
+.main__icons__title__text {
+  font-weight: 300;
+  font-size: 2rem;
+}
+.main__icons__card {
+  margin: auto;
+  width: min-content;
+  padding: 1em;
+}
+.main__icons__card__image {
+  padding: 0;
+}
+.main__icons__card__image--first {
+  transform: translate(1.9em);
+}
+.main__icons__card__image--second {
+  transform: translate(-0.6em, -0.8em);
+}
+.main__icons__card__title {
+  padding: 1em;
+  letter-spacing: 5.96px;
+  font-weight: 800;
+  font-size: 1.25rem;
+  width: 80%;
+}
+.main__icons__card__text {
+  font-weight: 400;
+  font-size: 1rem;
+  color: #A5A5A5;
+}/*# sourceMappingURL=icons.css.map */

@@ -18,7 +18,7 @@
     }
     &__greenRectangle {
         max-width: -webkit-fill-available;
-        transform: scaleX(1.12);
+        transform: scaleX(1.12) translateY(5px);;
     }
     &__trumpet {
         position: absolute;

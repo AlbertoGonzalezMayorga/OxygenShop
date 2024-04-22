@@ -14,9 +14,9 @@
 }
 #image__greenRectangle {
   max-width: -webkit-fill-available;
-  transform: scaleX(1.12);
+  transform: scaleX(1.12) translateY(5px);
 }
 #image__trumpet {
   position: absolute;
   transform: translate(-19em, 1em);
-}
+}/*# sourceMappingURL=ids.css.map */

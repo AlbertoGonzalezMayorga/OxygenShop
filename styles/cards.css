@@ -9,7 +9,7 @@
   border-radius: 5px;
   border: 1px solid #E8E9ED;
   background-color: #FFFFFF;
-  padding: 1em;
+  padding: 1em 1em 0em 1em;
 }
 .main__cards-container__card__title {
   text-align: start;
@@ -23,4 +23,4 @@
   padding: 1em 0em 1em 0em;
   font-weight: 400;
   font-size: 0.875rem;
-}
+}/*# sourceMappingURL=cards.css.map */
