@@ -1,0 +1,33 @@
+.main {
+    &__formulary {
+        width: 90%;
+        margin: auto;
+        &__info {
+            &__title {
+                font-weight: 400;
+                font-size: 3rem;
+            }
+            &__subtitle {
+            }
+            &__email {
+                &__img {
+                }
+                &__text {
+                }
+            }
+
+            &__form {
+            }
+        }
+        &__form {
+            &__input-block {
+                &__input {
+                }
+                &__label {
+                }
+            }
+            &__send-button {
+            }
+        }
+    }
+}

@@ -256,6 +256,14 @@
   box-shadow: 5px 10px 27px rgba(85, 223, 180, 0.2901960784);
 }
 
+.main__formulary {
+  width: 90%;
+  margin: auto;
+}
+.main__formulary__info__title {
+  font-weight: 400;
+  font-size: 3rem;
+}
 #image__macbook {
   position: relative;
   padding-top: 1em;
@@ -277,4 +285,4 @@
 #image__trumpet {
   position: absolute;
   transform: translate(-19em, 1em);
-}/*# sourceMappingURL=styles.css.map */
+}

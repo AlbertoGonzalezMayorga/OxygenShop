@@ -1,0 +1,8 @@
+.main__formulary {
+  width: 90%;
+  margin: auto;
+}
+.main__formulary__info__title {
+  font-weight: 400;
+  font-size: 3rem;
+}

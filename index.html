@@ -180,32 +180,31 @@
                 <button class="main__prices__card__button font__primary">Begin</button>
             </section>
         </section>
-        <section class="main__formulary">
+        <section class="main__formulary font__primary">
             <article class="main__formulary__info">
-                <h2 class="main__formulary__info__title"></h2>
-                <h4 class="main__formulary__info__subtitle">
-                    </h2>
-                    <article class="main__formulary__info__email">
-                        <img class="main__formulary__info__email__img" src="">
-                        <h2 class="main__formulary__info__email__text"></h2>
-                    </article>
-                    <article class="main__formulary__info__phone">
-                        <img class="main__formulary__info__phone__img" src="">
-                        <h2 class="main__formulary__info__phone_text"></h2>
-                    </article>
+                <h2 class="main__formulary__info__title font__secondary">Any questions?</h2>
+                <h4 class="main__formulary__info__subtitle">Leave your email address or call us!</h4>
+                <article class="main__formulary__info__email">
+                    <img class="main__formulary__info__email__img" src="images/Mail Icon.svg">
+                    <h2 class="main__formulary__info__email__text">info@bestshop.xyz</h2>
+                </article>
+                <article class="main__formulary__info__phone">
+                    <img class="main__formulary__info__phone__img" src="images/Phone Icon.svg">
+                    <h2 class="main__formulary__info__phone_text">123 456 789</h2>
+                </article>
             </article>
-            <form class="main__formulary__form">
-                <article>
-                    <label for="name">NAME</label>
-                    <input type="text" name="name" required>
+            <form class="main__formulary__form" method="post">
+                <article class="main__formulary__form__input-block">
+                    <label class="main__formulary__form__input-block__label" for="name">NAME</label>
+                    <input class="main__formulary__form__input-block__input" type="text" name="name" required>
                 </article>
-                <article>
-                    <label for="email">EMAIL</label>
-                    <input type="text" name="email" required>
+                <article class="main__formulary__form__input-block">
+                    <label class="main__formulary__form__input-block__label" for="email">EMAIL</label>
+                    <input class="main__formulary__form__input-block__input" type="text" name="email" required>
                 </article>
-                <article>
-                    <input type="checkbox" name="consent">
-                    <label for="consent">
+                <article class="main__formulary__form__input-block">
+                    <input class="main__formulary__form__input-block__input" type="checkbox" name="consent">
+                    <label class="main__formulary__form__input-block__label" for="consent">
                         I hereby give consent for my personal data included in my
                         application to be processed for the purposes of the recruitment
                         process under the European Parliament’s and Council of the
@@ -215,7 +214,7 @@
                         Directive 95/46/EC (Data Protection Directive)
                     </label>
                 </article>
-                <button type="submit" name="send">Send</button>
+                <button class="main__formulary__form__send-button" type="submit" name="send">Send</button>
             </form>
         </section>
     </main>
